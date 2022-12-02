@@ -1,12 +1,3 @@
-<?php 
-  include("database/migration.php");
-  include("database/database.php");
-  $database = new Database();
-  $db = $database->getDatabase();
-  $migration = new MigrationDatabase($db);
-  $result = $migration->createTableUser();
-  var_dump($result);
-?>
 <!doctype html>
 <html lang="pt-br">
   <head>

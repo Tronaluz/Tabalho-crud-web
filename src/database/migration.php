@@ -7,7 +7,7 @@
         
         public function createTableUser() {
             try {
-                $this->db->exec("CREATE  TABLE IF NOT EXISTS pessoa (
+                $this->db->exec("CREATE  TABLE IF NOT EXISTS user (
                     UUID INT NOT NULL AUTO_INCREMENT ,
                     NAME VARCHAR(45) NOT NULL,
                     EMAIL VARCHAR(45) NOT NULL,
