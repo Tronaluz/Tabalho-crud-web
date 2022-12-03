@@ -9,8 +9,8 @@
 
 
 </head>
-<body style="background: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 140, 71))">
-<section class="vh-100" style="background-color: #eee;">
+<body>
+<section style="background: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 140, 71))" class="vh-100" style="background-color: #eee;">
   <div class="container h-100">
     <div class="row d-flex justify-content-center align-items-center h-100">
       <div class="col-lg-12 col-xl-11">
@@ -20,18 +20,20 @@
               <div class="col-md-10 col-lg-6 col-xl-5 order-2 order-lg-1">
 
 <form>
-  <div class="form-group" >
+  <div style= "text-align: center" class="form-group" >
     <input style="background-color: white; border:solid 1px; border: radius 15px; width:300px;" type="email" class="form-control" id="exampleInputEmail1"  placeholder="Email">
   </div>
-  <div class="form-group">
+  <div style= "text-align: center" class="form-group">
     <input style="margin-top: 25px; background-color: white; border:solid 1px; border-radius:15px; width:300px;" type="senha" class="form-control" id="Senha" placeholder="Senha">
   </div>
-  <div class="form-check">
+  <div style= "text-align: center" class="form-check">
     <input type="checkbox" class="form-check-input" id="exampleCheck1">
     <label class="form-check-label" for="exampleCheck1">Lembrar-me</label>
   </div>
-  <button type="Entrar" class="btn btn-primary">Entrar</button>
-  <button type="Registro" class="btn btn-primary">Registrar</button>
+  <div style= "text-align: center">
+    <button type="Entrar" class="btn btn-primary">Entrar</button>
+    <button style="margin-left: 10px" type="Registro" class="btn btn-primary">Registrar</button>
+  </div>
 </form>
 
 </body>
