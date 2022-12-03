@@ -20,28 +20,26 @@
                   <div class="col-md-10 col-lg-6 col-xl-5 order-2 order-lg-1">
 
 
-   <div class="col-md-10 col-lg-6 col-xl-7 d-flex align-items-center order-1 order-lg-2">
-   <img style= "style= float:left" src="crud.png" class="img-fluid" alt="Sample image">
-
-   </div>
-
       <form>
-      <div class="form-group" >
-         <input style="background-color: white; border:solid 1px; border: radius 15px; width:450px; text-align: left" type="email" class="form-control" id="exampleInputEmail1"  placeholder="Email">
-      </div>
-      <div  class="form-group">
-         <input style="margin-top: 25px; background-color: white; border:solid 1px; border-radius:15px; width:450px; text-align: left" type="senha" class="form-control" id="Senha" placeholder="Senha">
-      </div>
-      <div class="form-check">
-         <input style= " text-align: left type="checkbox" class="form-check-input" id="exampleCheck1">
-         <label style= " text-align: left class="form-check-label" for="exampleCheck1">Lembrar-me</label>
-      </div>
-      <div style= "text-align: center">
-         <button type="Entrar" class="btn btn-primary">Entrar</button>
-         <button style="margin-left: 10px" type="Registro" class="btn btn-primary">Registrar</button>
-      </div>
-      </form>
-      
+         <div class="col-md-10 col-lg-6 col-xl-7 d-flex align-items-center order-1 order-lg-2">
+         <img  src="crud.png" class="img-fluid" alt="Sample image" style= "align:left">
+         </div>
+         <div class="form-group" >
+            <input style="background-color: white; border:solid 1px; border: radius 15px; width:450px; text-align: left" type="email" class="form-control" id="exampleInputEmail1"  placeholder="Email">
+         </div>
+         <div  class="form-group">
+            <input style="margin-top: 25px; background-color: white; border:solid 1px; border-radius:15px; width:450px; text-align: left" type="senha" class="form-control" id="Senha" placeholder="Senha">
+         </div>
+         <div class="form-check">
+            <input style= " text-align: left type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label style= " text-align: left class="form-check-label" for="exampleCheck1">Lembrar-me</label>
+         </div>
+         <div style= "text-align: center">
+            <button type="Entrar" class="btn btn-primary">Entrar</button>
+            <button style="margin-left: 10px" type="Registro" class="btn btn-primary">Registrar</button>
+         </div>
+         </form>
+         
 
-      </body>
-      </html>
+         </body>
+         </html>
