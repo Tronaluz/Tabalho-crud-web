@@ -6,18 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <title>log</title>
-<style>
-  font-family: Arial, Helvetica, sans-serif;
-   background: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71))
-</style>
+
 
 </head>
-<body>
-  <h1> Ola mundo!</h1>
-   <div class="box">
-      <a href="">LOGIN</a>
-      <a href="">Registrar</a>
-   </div>
+<body style="background: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 140, 71))">
+<section class="vh-100" style="background-color: #eee;">
+  <div class="container h-100">
+    <div class="row d-flex justify-content-center align-items-center h-100">
+      <div class="col-lg-12 col-xl-11">
+        <div class="card text-black" style="border-radius: 25px;">
+          <div class="card-body p-md-5">
+            <div class="row justify-content-center">
+              <div class="col-md-10 col-lg-6 col-xl-5 order-2 order-lg-1">
+
+<form>
+  <div class="form-group" >
+    <input style="background-color: white; border:solid 1px; border: radius 15px; width:300px;" type="email" class="form-control" id="exampleInputEmail1"  placeholder="Email">
+  </div>
+  <div class="form-group">
+    <input style="margin-top: 25px; background-color: white; border:solid 1px; border-radius:15px; width:300px;" type="senha" class="form-control" id="Senha" placeholder="Senha">
+  </div>
+  <div class="form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Lembrar-me</label>
+  </div>
+  <button type="Entrar" class="btn btn-primary">Entrar</button>
+  <button type="Registro" class="btn btn-primary">Registrar</button>
+</form>
 
 </body>
 </html>
