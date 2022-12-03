@@ -1,8 +1,10 @@
 <?php 
 require $_SERVER["DOCUMENT_ROOT"] . "/http/controllers/userController.php";
+require $_SERVER["DOCUMENT_ROOT"] . "/http/security/auth";
 
 function routeManager($request, $db) {
     $userController = new UserController($db);
+    $loginController = new Auth($db);
     switch ($request) {
         case '/' :
             break;
